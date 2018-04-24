@@ -9,10 +9,12 @@ int main()
     char rName[8];
 
     int iR = 0;
-    for (int i = 8; i > 0; i--)
+    int i = 8;
+    while ( i > 0 )
     {
         rName[iR] = name[i];
         iR++;
+        i--;
     }
 
     cout << name << "\n";
